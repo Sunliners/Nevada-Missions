@@ -1,5 +1,7 @@
 --Start Mission parameters
 env.info( '*** MOOSE FRAMEWORK INITIALIZED ***' )
+local Trainer = MISSILETRAINER
+    :New( 200, "MISSILE TRAINER ACTIVATED" ):InitMessagesOnOff(true):InitAlertsToAll(true):InitAlertsHitsOnOff(true):InitAlertsLaunchesOnOff(false):InitBearingOnOff(false):InitRangeOnOff(false):InitTrackingOnOff(false):InitTrackingToAll(false):InitMenusOnOff(true)
 
 --Mission Goals
 
