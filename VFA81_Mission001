@@ -1,4 +1,5 @@
 --Start Mission parameters
+env.info( '*** MOOSE FRAMEWORK INITIALIZED ***' )
 
 --Mission Goals
 
